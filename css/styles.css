@@ -1,0 +1,104 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+.button-sign-in {
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-bg {
+  background-color: #262626;
+}
+
+.footer-logo {
+  padding-top: 56px;
+  padding-bottom: 40px;
+}
+
+.footer-line {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-btn {
+  border: none;
+  background-color: #3b3b3b;
+  box-sizing: border-box;
+  border-radius: 2px;
+  display: inline-block;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  line-height: 34px;
+  color: white;
+}
+
+.footer-img-world {
+  padding-left: 16px;
+  position: absolute;
+  padding-top: 9px;
+}
+
+.footer-btn-language-p {
+  line-height: 18px;
+
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+.footer-img-arrow {
+  padding-right: 8px;
+}
+
+.footer-link {
+  font-size: 13px;
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 40px;
+}
+
+.footer-hashtag {
+  color: #49a144;
+}
+
+.footer-hash-text {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.social-buttons {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.footer-text {
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.download-apps {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-terms {
+  font-size: 11px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.footer-terms-link {
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 96px;
+  color: #ffffff;
+}
