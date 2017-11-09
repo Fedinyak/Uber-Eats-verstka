@@ -15,6 +15,24 @@ body {
   padding-bottom: 20px;
 }
 
+.location-title {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.macdonalds {
+  height: 256px;
+} /*
+
+
+
+
+
+
+
+
+
+*/
 .footer-bg {
   background-color: #262626;
 }
@@ -86,8 +104,26 @@ body {
 }
 
 .download-apps {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .download-apps {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.download-apps-ios {
+  margin-right: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .download-apps-ios {
+    margin-right: 40px;
+  }
 }
 
 .footer-terms {
