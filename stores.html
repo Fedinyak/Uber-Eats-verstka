@@ -11,13 +11,16 @@
 </head>
 
 <body>
-  <header>
+  <header class="header-shadow">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <img srcset="img/logo.svg" alt="UBER EATS Logo">
+      <div class="head-wrap">
+        <img class="head-logo" srcset="img/logo.svg" alt="UBER EATS Logo">
+        <div class="head-btn">
           <button class="button-sign-in">Sign In</button>
           <button class="button-register">Register</button>
+          <div class="hidden-xs">
+            <img class="head-basket" srcset="img/basket.svg">
+          </div>
         </div>
       </div>
     </div>
@@ -33,42 +36,60 @@
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="macdonalds" srcset="img/mac.png" alt="Macdonalds">
-            <p>Макдоналдс — Газетный</p>
+            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
+            <p class="card-rest">Макдоналдс — Газетный</p>
+            <p class="card-food-type">₽₽ • Бургеры</p>
+            <p class="card-time">25 - 35 Min</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="macdonalds" srcset="img/mac.png" alt="Macdonalds">
-            <p>DimSum & Co — ЦДМ</p>
+            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
+            <p class="card-rest">DimSum & Co — ЦДМ</p>
+            <p class="card-food-type">₽₽ • Бургеры</p>
+            <p class="card-time">25 - 35 Min</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="macdonalds" srcset="img/mac.png" alt="Macdonalds">
-            <p>ДвижОК — Манежная</p>
+            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
+            <p class="card-rest">ДвижОК — Манежная</p>
+            <p class="card-food-type">₽₽ • Бургеры</p>
+            <p class="card-time">25 - 35 Min</p>
           </div>
 
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="macdonalds" srcset="img/mac.png" alt="Macdonalds">
-            <p>НЯ — NHA</p>
+            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
+            <p class="card-rest">НЯ — NHA</p>
+            <p class="card-food-type">₽₽ • Бургеры</p>
+            <p class="card-time">25 - 35 Min</p>
           </div>
           <div class="hidden-xs col-sm-6 col-lg-4">
-            <img class="macdonalds" srcset="img/mac.png" alt="Macdonalds">
-            <p>Точка Дзы — Цветной</p>
+            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
+            <p class="card-rest">Точка Дзы — Цветной</p>
+            <p class="card-food-type">₽₽ • Бургеры</p>
+            <p class="card-time">25 - 35 Min</p>
           </div>
           <div class="hidden-xs col-sm-6 col-lg-4">
-            <img class="macdonalds" srcset="img/mac.png" alt="Macdonalds">
-            <p>Cinnabon</p>
+            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
+            <p class="card-rest">Cinnabon</p>
+            <p class="card-food-type">₽₽ • Бургеры</p>
+            <p class="card-time">25 - 35 Min</p>
           </div>
 
           <div class="hidden-xs col-sm-6 col-lg-4">
-            <img class="macdonalds" srcset="img/mac.png" alt="Macdonalds">
-            <p>PIZZELOVE</p>
+            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
+            <p class="card-rest">PIZZELOVE</p>
+            <p class="card-food-type">₽₽ • Бургеры</p>
+            <p class="card-time">25 - 35 Min</p>
           </div>
           <div class="hidden-xs col-sm-6 col-lg-4">
-            <img class="macdonalds" srcset="img/mac.png" alt="Macdonalds">
-            <p>Zю кафе — Тверская</p>
+            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
+            <p class="card-rest">Zю кафе — Тверская</p>
+            <p class="card-food-type">₽₽ • Бургеры</p>
+            <p class="card-time">25 - 35 Min</p>
           </div>
           <div class="hidden-xs col-sm-6 col-lg-4">
-            <img class="macdonalds" srcset="img/mac.png" alt="Macdonalds">
-            <p>Bar BQ Cafe — Манежная</p>
+            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
+            <p class="card-rest">Bar BQ Cafe — Манежная</p>
+            <p class="card-food-type">₽₽ • Бургеры</p>
+            <p class="card-time">25 - 35 Min</p>
           </div>
         </div>
       </div>
@@ -129,17 +150,19 @@
         </div>
 
         <div class="footer-line"></div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-lg-4">
-            <p class="footer-terms">© 2017 Uber Technologies inc.</p>
-          </div>
+        <div class="footer-terms">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 col-lg-4">
+              <p class="footer-terms-copyright">© 2017 Uber Technologies inc.</p>
+            </div>
 
-          <div class="col-xs-12 col-sm-4 col-lg-4">
-            <a class="footer-terms-link" href="#">Privacy</a>
-          </div>
+            <div class="col-xs-12 col-sm-4 col-lg-4">
+              <a class="footer-terms-link" href="#">Privacy</a>
+            </div>
 
-          <div class="col-xs-12 col-sm-4 col-lg-4">
-            <a class="footer-terms-link" href="#">Terms</a>
+            <div class="col-xs-12 col-sm-4 col-lg-4">
+              <a class="footer-terms-link" href="#">Terms</a>
+            </div>
           </div>
         </div>
 
