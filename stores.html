@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./css/grid.css">
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/stores.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 </head>
 
 <body>
@@ -15,7 +15,9 @@
     <div class="header-shadow">
       <div class="container">
         <div class="head-wrap">
-          <img class="head-logo" srcset="img/logo.svg" alt="UBER EATS Logo">
+          <a name="top">
+            <img class="head-logo" srcset="img/logo.svg" alt="UBER EATS Logo">
+          </a>
           <div class="head-btn">
             <button class="button-sign-in">Sign In</button>
             <button class="button-register">Register</button>
@@ -35,7 +37,7 @@
           </form>
         </div>
       </div>
-      <hr class="header-hr">
+      <hr class="header-line">
     </div>
 
     <div class="container">
@@ -131,51 +133,57 @@
     <div class="footer-bg">
       <div class="container">
         <img class="footer-logo" srcset="img/white-logo.svg" alt="UBER EATS Logo">
-        <div class="footer-line"></div>
+        <hr class="footer-line">
 
         <div class="row">
-          <div class="col-xs-12 col-sm-4 col-lg-4">
-            <button class="footer-btn">
-              <img class="footer-img-world" srcset="img/world.svg">
-              <span class="footer-btn-language-p">ENGLISH</span>
-              <img class="footer-img-arrow" srcset="img/if_icon-ios7-arrow-back_211686.svg">
+          <div class="col-xs-7 col-sm-4 col-lg-4">
+            <button class="footer-lang-selector">
+              <img class="footer-lang-selector-img-world" srcset="img/world.svg">
+              <p class="footer-lang-selector-p">ENGLISH</p>
+              <img class="footer-lang-selector-arrow" srcset="img/if_icon-ios7-arrow-back_211686.svg">
             </button>
 
-            <p>
+            <p class="footer-hash-text">
               <span class="footer-hashtag">#</span>
-              <span class="footer-hash-text"> UberEats</span>
-            </p>
+              UberEats</p>
 
             <div class="social-buttons">
-              <img srcset="img/facebook.svg">
-              <img srcset="img/twitter.svg">
-              <img srcset="img/instagram.svg">
+              <a href="#">
+                <img srcset="img/facebook.svg">
+              </a>
+              <a href="#">
+                <img srcset="img/twitter.svg">
+              </a>
+              <a href="#">
+                <img srcset="img/instagram.svg">
+              </a>
             </div>
           </div>
+          <div class="footer-link-wrap">
+            <div class="col-xs-12 col-sm-4 col-lg-4">
+              <a class="footer-link" href="#">About UberEats</a>
+              <br>
+              <a class="footer-link" href="#">Become a Delivery Partner</a>
+              <br>
+              <a class="footer-link" href="#">Become a Restaurant Partner</a>
+            </div>
 
-          <div class="col-xs-12 col-sm-4 col-lg-4">
-            <a class="footer-link" href="#">About UberEats</a>
-            <br>
-            <a class="footer-link" href="#">Become a Delivery Partner</a>
-            <br>
-            <a class="footer-link" href="#">Become a Restaurant Partner</a>
-          </div>
-
-          <div class="col-xs-12 col-sm-4 col-lg-4">
-            <a class="footer-link" href="#">See all cities</a>
-            <br>
-            <a class="footer-link" href="#">Pricing</a>
-            <br>
-            <a class="footer-link" href="#">Help</a>
-            <br>
-            <a class="footer-link" href="#">FAQs</a>
+            <div class="col-xs-12 col-sm-4 col-lg-4">
+              <a class="footer-link" href="#">See all cities</a>
+              <br>
+              <a class="footer-link" href="#">Pricing</a>
+              <br>
+              <a class="footer-link" href="#">Help</a>
+              <br>
+              <a class="footer-link" href="#">FAQs</a>
+            </div>
           </div>
         </div>
 
         <div class="footer-line"></div>
         <div class="download-apps">
-          <img class="download-apps-ios" srcset="img/Download_on_the_App_Store_Badge_US-UK_135x40-d0558d9106.png">
-          <img class="download-apps-android" srcset="img/en_badge_web_generic-cf6dad406f.png">
+          <img class="download-app-ios" srcset="img/Download_on_the_App_Store_Badge_US-UK_135x40-d0558d9106.png">
+          <img class="download-app-android" srcset="img/en_badge_web_generic-cf6dad406f.png">
         </div>
 
         <div class="footer-line"></div>
@@ -196,7 +204,18 @@
         </div>
 
       </div>
+      <a href="#top">
+        <div class="btn-up-wrap">
+          <button class="btn-up">
+            <img class="btn-up-img" srcset="img/btn-up-arrow.svg">
+          </button>
+        </div>
+      </a>
+
     </div>
+
+
+
   </footer>
 </body>
 

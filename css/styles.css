@@ -1,9 +1,12 @@
 body {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 300;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header-shadow {
@@ -88,7 +91,6 @@ body {
 .search-input {
   font-size: 13px;
   color: #626262;
-  mix-blend-mode: normal;
   opacity: 0.5;
   border: 2px;
   width: 100%;
@@ -96,9 +98,8 @@ body {
   outline: none;
 }
 
-.header-hr {
+.header-line {
   background: #757575;
-  mix-blend-mode: normal;
   opacity: 0.3;
 }
 
@@ -164,36 +165,37 @@ body {
 
 .footer-line {
   height: 1px;
+  border: none;
   background-color: rgba(255, 255, 255, 0.4);
 }
 
-.footer-btn {
+.footer-lang-selector {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 30px;
   border: none;
+  border-radius: 2px;
   background-color: #3b3b3b;
   box-sizing: border-box;
-  border-radius: 2px;
-  display: inline-block;
-  margin-top: 32px;
-  margin-bottom: 16px;
-  font-size: 13px;
-  line-height: 34px;
-  color: white;
+  width: 100%;
 }
 
-.footer-img-world {
+.footer-lang-selector-img-world {
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 16px;
-  position: absolute;
-  padding-top: 9px;
 }
 
-.footer-btn-language-p {
-  line-height: 18px;
-  padding-left: 40px;
-  padding-right: 80px;
+.footer-lang-selector-p {
+  line-height: 1px;
+  font-size: 13px;
+  color: white;
+  padding-left: 16px;
 }
 
-.footer-img-arrow {
-  padding-right: 8px;
+.footer-lang-selector-arrow {
+  padding-left: 32px;
 }
 
 .footer-link {
@@ -229,6 +231,10 @@ body {
   color: #ffffff;
 }
 
+.footer-link-wrap {
+  margin-bottom: 28px;
+}
+
 .download-apps {
   text-align: center;
   margin-top: 24px;
@@ -242,13 +248,27 @@ body {
   }
 }
 
-.download-apps-ios {
-  margin-right: 24px;
+.download-app-ios {
+  margin-right: 11px;
+  height: 34px;
 }
 
 @media only screen and (min-width: 768px) {
-  .download-apps-ios {
+  .download-app-ios {
     margin-right: 40px;
+    height: 39px;
+  }
+}
+
+.download-app-android {
+  margin-left: 11px;
+  height: 34px;
+}
+
+@media only screen and (min-width: 768px) {
+  .download-app-android {
+    margin-right: 40px;
+    height: 39px;
   }
 }
 
@@ -273,4 +293,18 @@ body {
   .footer-terms-link {
     line-height: 92px;
   }
+}
+
+.btn-up-wrap {
+  float: right;
+  margin-top: -90px;
+  margin-right: 16px;
+}
+
+.btn-up {
+  border: none;
+  border-radius: 2px;
+  width: 64px;
+  height: 64px;
+  background: #59bd5a;
 }
