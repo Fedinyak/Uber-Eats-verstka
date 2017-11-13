@@ -1,0 +1,36 @@
+.rest {
+  margin-bottom: 32px;
+}
+
+.Rest-location {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+
+.rest-img {
+  height: 250px;
+}
+
+.rest-name {
+  line-height: 26px;
+  font-size: 16px;
+  color: #1d1d1d;
+  margin-bottom: 0;
+}
+
+.rest-food-type {
+  margin-top: 0;
+  line-height: 24px;
+  font-size: 14px;
+  color: #626262;
+}
+
+.rest-delivery-time {
+  margin-top: 0;
+  margin-bottom: 44px;
+  line-height: 0;
+  font-size: 13px;
+  color: #1d1d1d;
+}

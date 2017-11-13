@@ -11,85 +11,114 @@
 </head>
 
 <body>
-  <header class="header-shadow">
-    <div class="container">
-      <div class="head-wrap">
-        <img class="head-logo" srcset="img/logo.svg" alt="UBER EATS Logo">
-        <div class="head-btn">
-          <button class="button-sign-in">Sign In</button>
-          <button class="button-register">Register</button>
-          <div class="hidden-xs">
-            <img class="head-basket" srcset="img/basket.svg">
+  <header>
+    <div class="header-shadow">
+      <div class="container">
+        <div class="head-wrap">
+          <img class="head-logo" srcset="img/logo.svg" alt="UBER EATS Logo">
+          <div class="head-btn">
+            <button class="button-sign-in">Sign In</button>
+            <button class="button-register">Register</button>
+            <div class="hidden-xs">
+              <img class="head-basket" srcset="img/basket.svg">
+            </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <form class="search-form">
+            <img class="search-img" srcset="img/search.svg">
+            <input class="search-input" type="text" placeholder="Search for restaurant or cuisine">
+          </form>
+        </div>
+      </div>
+      <hr class="header-hr">
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="delivery-loc-wrap">
+          <p class="delivery-loc-text">When</p>
+          <button class="delivery-loc-btn-when">ASAP</button>
+        </div>
+        <div class="delivery-loc-wrap">
+          <p class="delivery-loc-text">To</p>
+          <form class="delivery-loc-form">
+            <img class="delivery-loc-img" srcset="img/location.svg">
+            <input class="delivery-loc-input" type="text" value="ul. Bolshaya Dmitrovka,22">
+          </form>
         </div>
       </div>
     </div>
   </header>
 
   <main>
-    <section>
+    <section class="rest">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <h1 class="location-title">Moscow Restaurants</h1>
+            <h1 class="rest-location">Moscow Restaurants</h1>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
-            <p class="card-rest">Макдоналдс — Газетный</p>
-            <p class="card-food-type">₽₽ • Бургеры</p>
-            <p class="card-time">25 - 35 Min</p>
+            <img class="rest-img" srcset="img/mac.png" alt="Макдоналдс">
+            <p class="rest-name">Макдоналдс — Газетный</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
-            <p class="card-rest">DimSum & Co — ЦДМ</p>
-            <p class="card-food-type">₽₽ • Бургеры</p>
-            <p class="card-time">25 - 35 Min</p>
+            <img class="rest-img" srcset="img/DimSum.png" alt="DimSum & Co — ЦДМ">
+            <p class="rest-name">DimSum & Co — ЦДМ</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
-            <p class="card-rest">ДвижОК — Манежная</p>
-            <p class="card-food-type">₽₽ • Бургеры</p>
-            <p class="card-time">25 - 35 Min</p>
+            <img class="rest-img" srcset="img/Dvizhok.png" alt="ДвижОК — Манежная">
+            <p class="rest-name">ДвижОК — Манежная</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
           </div>
 
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
-            <p class="card-rest">НЯ — NHA</p>
-            <p class="card-food-type">₽₽ • Бургеры</p>
-            <p class="card-time">25 - 35 Min</p>
+            <img class="rest-img" srcset="img/NHA.png" alt="НЯ — NHA">
+            <p class="rest-name">НЯ — NHA</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
           </div>
           <div class="hidden-xs col-sm-6 col-lg-4">
-            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
-            <p class="card-rest">Точка Дзы — Цветной</p>
-            <p class="card-food-type">₽₽ • Бургеры</p>
-            <p class="card-time">25 - 35 Min</p>
+            <img class="rest-img" srcset="img/Tochka-dzy.png" alt="Точка Дзы — Цветной">
+            <p class="rest-name">Точка Дзы — Цветной</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
           </div>
           <div class="hidden-xs col-sm-6 col-lg-4">
-            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
-            <p class="card-rest">Cinnabon</p>
-            <p class="card-food-type">₽₽ • Бургеры</p>
-            <p class="card-time">25 - 35 Min</p>
+            <img class="rest-img" srcset="img/Cinnabon.png" alt="Cinnabon">
+            <p class="rest-name">Cinnabon</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
           </div>
 
           <div class="hidden-xs col-sm-6 col-lg-4">
-            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
-            <p class="card-rest">PIZZELOVE</p>
-            <p class="card-food-type">₽₽ • Бургеры</p>
-            <p class="card-time">25 - 35 Min</p>
+            <img class="rest-img" srcset="img/PIZZELOVE.png" alt="PIZZELOVE">
+            <p class="rest-name">PIZZELOVE</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
           </div>
           <div class="hidden-xs col-sm-6 col-lg-4">
-            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
-            <p class="card-rest">Zю кафе — Тверская</p>
-            <p class="card-food-type">₽₽ • Бургеры</p>
-            <p class="card-time">25 - 35 Min</p>
+            <img class="rest-img" srcset="img/Zy.png" alt="Zю кафе — Тверская">
+            <p class="rest-name">Zю кафе — Тверская</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
           </div>
           <div class="hidden-xs col-sm-6 col-lg-4">
-            <img class="card-img" srcset="img/mac.png" alt="Macdonalds">
-            <p class="card-rest">Bar BQ Cafe — Манежная</p>
-            <p class="card-food-type">₽₽ • Бургеры</p>
-            <p class="card-time">25 - 35 Min</p>
+            <img class="rest-img" srcset="img/Bar-BQ.png" alt="Bar BQ Cafe — Манежная">
+            <p class="rest-name">Bar BQ Cafe — Манежная</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
           </div>
         </div>
       </div>
