@@ -170,6 +170,10 @@
   .col-sm-12 {
     flex-basis: 100%;
   }
+
+  .col-sm-offset-1 {
+    margin-left: 8.3333%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
