@@ -2,6 +2,13 @@
   margin-bottom: 32px;
 }
 
+@media only screen and (min-width: 992px) {
+  .rest {
+    margin-top: 8px;
+    margin-bottom: 64px;
+  }
+}
+
 .rest-location {
   font-size: 22px;
   font-weight: 500;
