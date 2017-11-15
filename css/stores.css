@@ -1,5 +1,12 @@
 .rest {
+  padding-top: 248px;
   margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  .rest {
+    padding-top: 180px;
+  }
 }
 
 @media only screen and (min-width: 992px) {

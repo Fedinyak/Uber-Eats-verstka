@@ -11,58 +11,62 @@
 </head>
 
 <body>
-  <header>
+  <header class="header-shadow">
+    <div class="head-wrap">
+      <div>
+        <a name="top">
+          <img class="head-logo" srcset="img/logo.svg" alt="UBER EATS Logo">
+        </a>
+      </div>
 
-    <div class="header-shadow"></div>
-    <div class="container">
-      <div class="head-wrap">
+      <div class="delivery">
         <div>
-          <a name="top">
-            <img class="head-logo" srcset="img/logo.svg" alt="UBER EATS Logo">
-          </a>
+          <div class="hidden-sm">
+            <p class="delivery-loc-text">When</p>
+          </div>
+          <button class="delivery-loc-btn-when">ASAP</button>
         </div>
 
-        <div class="delivery">
-          <div class="delivery-col-1">
-            <div class="hidden-sm">
-              <p class="delivery-loc-text">When</p>
-            </div>
-            <button class="delivery-loc-btn-when">ASAP</button>
-
-          </div>
-          <div class="hidden-xs">
-            <p class="delivery-loc-text">to</p>
-          </div>
-
-          <div class="delivery-col-2">
-            <div class="hidden-sm">
-              <p class="delivery-loc-text">To</p>
-            </div>
-
-            <form class="delivery-loc-form">
-              <img class="delivery-loc-img" srcset="img/location.svg">
-              <input class="delivery-loc-input" type="text" value="ul. Bolshaya Dmitrovka,22">
-            </form>
-          </div>
+        <div class="hidden-xs">
+          <p class="delivery-loc-text">to</p>
         </div>
 
-        <div class="head-btn">
-          <button class="button-sign-in">Sign In</button>
-          <button class="button-register">Register</button>
-          <div class="hidden-xs">
-            <img class="head-basket" srcset="img/basket.svg">
+        <div class="delivery-loc-form-wrap">
+          <div class="hidden-sm">
+            <p class="delivery-loc-text">To</p>
           </div>
-        </div>
 
-        <div class="search-wrap">
-          <form class="search-form">
-            <img class="search-img" srcset="img/search.svg">
-            <input class="search-input" type="text" placeholder="Search for restaurant or cuisine">
+          <form class="delivery-loc-form">
+            <img class="delivery-loc-img" srcset="img/location.svg">
+            <input class="delivery-loc-input" type="text" value="ul. Bolshaya Dmitrovka,22">
           </form>
-          <hr class="header-line">
         </div>
       </div>
+
+      <div class="head-btn">
+        <button class="button-sign-in">Sign In</button>
+        <button class="button-register">Register</button>
+        <div class="hidden-xs">
+          <img class="head-basket" srcset="img/basket.svg">
+        </div>
+      </div>
+
+      <div class="search-wrap">
+        <form class="search-form">
+          <img class="search-img" srcset="img/search.svg">
+          <input class="search-input" type="text" placeholder="Search for restaurant or cuisine">
+        </form>
+        <hr class="header-line">
+      </div>
     </div>
+
+    <a href="#top">
+      <div class="btn-up-wrap">
+        <button class="btn-up">
+          <img class="btn-up-img" srcset="img/btn-up-arrow.svg">
+        </button>
+      </div>
+    </a>
   </header>
 
   <main>
@@ -216,13 +220,7 @@
         </div>
 
       </div>
-      <a href="#top">
-        <div class="btn-up-wrap">
-          <button class="btn-up">
-            <img class="btn-up-img" srcset="img/btn-up-arrow.svg">
-          </button>
-        </div>
-      </a>
+
     </div>
 
   </footer>

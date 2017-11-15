@@ -10,10 +10,10 @@ a {
 }
 
 .header-shadow {
+  margin-top: -4;
   position: absolute;
   height: 72px;
   width: 100%;
-  z-index: -1;
   background: #ffffff;
   box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 }
@@ -25,11 +25,29 @@ a {
   justify-content: space-between;
   padding-top: 16px;
   padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 576px) {
+  .head-wrap {
+    width: 560px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .head-wrap {
     padding-top: 2px;
+    width: 752px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .head-wrap {
+    padding-top: 2px;
+    width: 976px;
   }
 }
 
@@ -107,10 +125,6 @@ a {
 @media only screen and (min-width: 768px) {
   .delivery-loc-btn-when {
     margin-right: 0;
-    /*    padding-top: 12px;
-    padding-right: 12px;
-    padding-bottom: 12px;
-    padding-left: 12px;*/
   }
 }
 
@@ -120,7 +134,7 @@ a {
   }
 }
 
-.delivery-col-2 {
+.delivery-loc-form-wrap {
   width: 100%;
   margin-right: 25px;
 }
@@ -369,7 +383,8 @@ a {
 }
 
 .footer-link-faq {
-  margin-top: 18.5px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -460,17 +475,9 @@ a {
 }
 
 .btn-up-wrap {
-  float: right;
-  margin-top: -90px;
-  margin-right: 16px;
-}
-
-@media only screen and (min-width: 768px) {
-  .btn-up-wrap {
-    float: right;
-    margin-top: -100px;
-    margin-right: 16px;
-  }
+  position: fixed;
+  bottom: 3%;
+  right: 14px;
 }
 
 .btn-up {
