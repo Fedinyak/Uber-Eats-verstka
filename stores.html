@@ -7,24 +7,135 @@
   <link rel="stylesheet" href="./css/grid.css">
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/stores.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <img srcset="img/logo.svg" alt="UBER EATS Logo">
-          <button class="button-sign-in">Sign In</button>
-          <button class="button-register">Register</button>
+  <header class="head-wrap">
+    <div class="head-container">
+      <div>
+        <a name="top">
+          <img class="head-logo" srcset="img/logo.svg" alt="UBER EATS Logo">
+        </a>
+      </div>
+
+      <div class="delivery">
+        <div>
+          <div class="hidden-sm">
+            <p class="delivery-loc-text">When</p>
+          </div>
+          <button class="delivery-loc-btn-when">ASAP</button>
+        </div>
+
+        <div class="hidden-xs">
+          <p class="delivery-loc-text">to</p>
+        </div>
+
+        <div class="delivery-loc-form-wrap">
+          <div class="hidden-sm">
+            <p class="delivery-loc-text">To</p>
+          </div>
+
+          <form class="delivery-loc-form">
+            <img class="delivery-loc-img" srcset="img/location.svg">
+            <input class="delivery-loc-input" type="text" value="ul. Bolshaya Dmitrovka,22">
+          </form>
         </div>
       </div>
+
+      <div class="head-btn">
+        <button class="button-sign-in">Sign In</button>
+        <button class="button-register">Register</button>
+        <div class="hidden-xs">
+          <img class="head-basket" srcset="img/basket.svg">
+        </div>
+      </div>
+
+      <div class="search-wrap">
+        <form class="search-form">
+          <img class="search-img" srcset="img/search.svg">
+          <input class="search-input" type="text" placeholder="Search for restaurant or cuisine">
+        </form>
+        <hr class="header-line">
+      </div>
     </div>
+
+    <a href="#top">
+      <div class="btn-up-wrap">
+        <button class="btn-up">
+          <img class="btn-up-img" srcset="img/btn-up-arrow.svg">
+        </button>
+      </div>
+    </a>
   </header>
 
   <main>
-    <section>
+    <section class="rest">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="rest-location">Moscow Restaurants</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img class="rest-img" srcset="img/mac.png" alt="Макдоналдс">
+            <p class="rest-name">Макдоналдс — Газетный</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img class="rest-img" srcset="img/DimSum.png" alt="DimSum & Co — ЦДМ">
+            <p class="rest-name">DimSum & Co — ЦДМ</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img class="rest-img" srcset="img/Dvizhok.png" alt="ДвижОК — Манежная">
+            <p class="rest-name">ДвижОК — Манежная</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img class="rest-img" srcset="img/NHA.png" alt="НЯ — NHA">
+            <p class="rest-name">НЯ — NHA</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
+          </div>
+          <div class="hidden-xs col-sm-6 col-lg-4">
+            <img class="rest-img" srcset="img/Tochka-dzy.png" alt="Точка Дзы — Цветной">
+            <p class="rest-name">Точка Дзы — Цветной</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
+          </div>
+          <div class="hidden-xs col-sm-6 col-lg-4">
+            <img class="rest-img" srcset="img/Cinnabon.png" alt="Cinnabon">
+            <p class="rest-name">Cinnabon</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
+          </div>
+
+          <div class="hidden-xs col-sm-6 col-lg-4">
+            <img class="rest-img" srcset="img/PIZZELOVE.png" alt="PIZZELOVE">
+            <p class="rest-name">PIZZELOVE</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
+          </div>
+          <div class="hidden-xs col-sm-6 col-lg-4">
+            <img class="rest-img" srcset="img/Zy.png" alt="Zю кафе — Тверская">
+            <p class="rest-name">Zю кафе — Тверская</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
+          </div>
+          <div class="hidden-xs col-sm-6 col-lg-4">
+            <img class="rest-img" srcset="img/Bar-BQ.png" alt="Bar BQ Cafe — Манежная">
+            <p class="rest-name">Bar BQ Cafe — Манежная</p>
+            <p class="rest-food-type">₽₽ • Бургеры</p>
+            <p class="rest-delivery-time">25 - 35 Min</p>
+          </div>
+        </div>
+      </div>
 
     </section>
 
@@ -34,77 +145,84 @@
     <div class="footer-bg">
       <div class="container">
         <img class="footer-logo" srcset="img/white-logo.svg" alt="UBER EATS Logo">
-        <div class="footer-line"></div>
+        <hr class="footer-line">
 
         <div class="row">
-          <div class="col-4">
-            <button class="footer-btn">
-              <img class="footer-img-world" srcset="img/world.svg">
-              <span class="footer-btn-language-p">ENGLISH</span>
-              <img class="footer-img-arrow" srcset="img/if_icon-ios7-arrow-back_211686.svg">
+          <div class="col-xs-7 col-sm-3">
+            <button class="footer-lang-selector">
+              <p class="footer-lang-selector-container">
+                <img class="footer-lang-selector-img-world" srcset="img/world.svg"> ENGLISH
+              </p>
+              <img class="footer-lang-selector-img-arrow" srcset="img/if_icon-ios7-arrow-back_211686.svg">
             </button>
 
-            <p>
+            <p class="footer-hash-text">
               <span class="footer-hashtag">#</span>
-              <span class="footer-hash-text"> UberEats</span>
-            </p>
+              UberEats</p>
 
             <div class="social-buttons">
-              <img srcset="img/facebook.svg">
-              <img srcset="img/twitter.svg">
-              <img srcset="img/instagram.svg">
+              <a href="#">
+                <img srcset="img/facebook.svg">
+              </a>
+              <a href="#">
+                <img srcset="img/twitter.svg">
+              </a>
+              <a href="#">
+                <img srcset="img/instagram.svg">
+              </a>
             </div>
           </div>
 
-          <div class="col-4">
-            <a class="footer-link" href="#">About UberEats</a>
-            <br>
-            <a class="footer-link" href="#">Become a Delivery Partner</a>
-            <br>
-            <a class="footer-link" href="#">Become a Restaurant Partner</a>
+          <div class="col-xs-12 col-sm-offset-1 col-sm-4 col-lg-4">
+            <div class="footer-link-about">
+              <a class="footer-link" href="#">About UberEats</a>
+              <br>
+              <a class="footer-link" href="#">Become a Delivery Partner</a>
+              <br>
+              <a class="footer-link" href="#">Become a Restaurant Partner</a>
+            </div>
           </div>
 
-          <div class="col-4">
-            <a class="footer-link" href="#">See all cities</a>
-            <br>
-            <a class="footer-link" href="#">Pricing</a>
-            <br>
-            <a class="footer-link" href="#">Help</a>
-            <br>
-            <a class="footer-link" href="#">FAQs</a>
+          <div class="footer-link-faq">
+            <div class="col-xs-12 col-sm-4 col-lg-4">
+              <a class="footer-link" href="#">See all cities</a>
+              <br>
+              <a class="footer-link" href="#">Pricing</a>
+              <br>
+              <a class="footer-link" href="#">Help</a>
+              <br>
+              <a class="footer-link" href="#">FAQs</a>
+            </div>
           </div>
         </div>
 
-        <div class="footer-line"></div>
+        <hr class="footer-line">
         <div class="download-apps">
-          <div class="row">
-            <div class="col-4"></div>
-
-            <div class="col-4">
-              <img srcset="img/Download_on_the_App_Store_Badge_US-UK_135x40-d0558d9106.png">
-              <img srcset="img/en_badge_web_generic-cf6dad406f.png">
-            </div>
-          </div>
+          <img class="download-app-ios" srcset="img/Download_on_the_App_Store_Badge_US-UK_135x40-d0558d9106.png">
+          <img class="download-app-android" srcset="img/en_badge_web_generic-cf6dad406f.png">
         </div>
 
+        <hr class="footer-line">
+        <div class="footer-terms">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 col-lg-4">
+              <p class="footer-terms-copyright">© 2017 Uber Technologies inc.</p>
+            </div>
 
-        <div class="footer-line"></div>
-        <div class="row">
-          <div class="col-4">
-            <p class="footer-terms">© 2017 Uber Technologies inc.</p>
-          </div>
+            <div class="col-xs-12 col-sm-4 col-lg-4">
+              <a class="footer-terms-link" href="#">Privacy</a>
+            </div>
 
-          <div class="col-4">
-            <a class="footer-terms-link" href="#">Privacy</a>
-          </div>
-
-          <div class="col-4">
-            <a class="footer-terms-link" href="#">Terms</a>
+            <div class="col-xs-12 col-sm-4 col-lg-4">
+              <a class="footer-terms-link" href="#">Terms</a>
+            </div>
           </div>
         </div>
 
       </div>
+
     </div>
+
   </footer>
 </body>
 
